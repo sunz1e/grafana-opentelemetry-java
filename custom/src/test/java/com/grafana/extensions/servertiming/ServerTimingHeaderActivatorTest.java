@@ -19,8 +19,7 @@ import org.junit.jupiter.api.io.TempDir;
 
 class ServerTimingHeaderActivatorTest {
 
-  private static final String EMIT_RESPONSE_HEADERS =
-      "grafana.otel.trace-response-header.enabled";
+  private static final String EMIT_RESPONSE_HEADERS = "grafana.otel.trace-response-header.enabled";
   private static final String CONFIG_FILE = "otel.config.file";
   private static final Map<String, String> NO_EXPORTERS =
       Map.of(
